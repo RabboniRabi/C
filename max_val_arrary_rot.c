@@ -75,7 +75,7 @@ int get_best_rotation_pos(int* input_array, int input_length) {
   /* Iterate through all possible rotations */
   for (int k = 1; k < input_length; k++) {
 
-    /* varianble to hold the incremented sigma(i * A[i]) for the kth rotation*/
+    /* variable to hold the incremented sigma(i * A[i]) for the kth rotation*/
     int inc = 0;
 
     /* Iterate through all elements of the array */
